@@ -1,0 +1,11 @@
+rtt_gw_ms,rtt_public_ms,loss_public_pct,dns_latency_ms,tr_last_hop_idx,rssi_dbm,dhcp_lease_age_min,jitter_ms,dns_ttl_avg,dns_response_ip_diversity,ping_gw_ok,ping_public_ok,ping_dns_ip_ok,dns_ok,ip_valid,eth_link_up,wifi_connected,error_code,label
+999,999,100,5,0,-65,10,0.4,180,1,no,no,no,no,no,no,yes,no_route,END_DEVICE
+3,280,75,20,2,-56,900,18,180,1,yes,no,no,no,yes,no,yes,no_route,ISP
+2,40,0,22,8,-58,1200,1.2,180,1,yes,yes,yes,yes,yes,no,yes,none,UPSTREAM
+2,35,0,400,8,-55,800,5,30,4,yes,yes,no,no,yes,no,yes,dns_fail,UPSTREAM
+2,999,100,15,1,-82,600,10,180,1,no,no,no,no,yes,no,yes,no_route,ACCESS_LINK
+2,999,100,18,1,-78,500,12,180,1,no,no,no,no,yes,no,yes,no_route,ACCESS_LINK
+2,999,100,50,1,-60,400,3,180,1,yes,no,yes,no,no,no,yes,auth_fail,LOCAL_NETWORK
+2,60,0,25,8,-55,1300,1.5,180,1,yes,yes,yes,yes,yes,no,yes,none,END_DEVICE
+3,45,0,20,8,-54,1440,1.0,180,1,yes,yes,yes,yes,yes,no,yes,none,LOCAL_NETWORK
+2,250,60,18,2,-57,700,22,180,1,yes,no,no,no,yes,no,yes,no_route,ISP
