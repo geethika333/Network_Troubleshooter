@@ -1,5 +1,4 @@
- # connectivity_model.py
-# Minimal ML model that TRAINS FROM A CSV FILE and predicts a fault domain.
+# This is an attempt to make a Minimal ML model that TRAINS FROM A CSV FILE and predicts a fault domain without other advanced features like Continuous Learning
 
 import argparse, json, os, sys
 from typing import Dict, Any
@@ -31,6 +30,8 @@ CATEG = [
 ]
 ALL_FEATS = NUMERIC + CATEG
 
+# Function to read the dataset
+# I made a fake dataset for now
 def load_dataset(path: str):
     if not os.path.exists(path):
         raise FileNotFoundError(f"Dataset not found: {path}")
