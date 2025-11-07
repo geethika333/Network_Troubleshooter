@@ -15,8 +15,7 @@ It aligns with the AI/ML system proposed in the *Connectivity Troubleshooter (Us
 ├── connectivity_model.joblib # Trained model (generated after training)
 └── README.md
 
-yaml
-Copy code
+
 
 ---
 
